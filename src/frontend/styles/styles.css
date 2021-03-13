@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 62.5% of 16px = 10px , useful in setting up sizes in "rem" units */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    max-height: 650px;
+    overflow: hidden;
+    padding: 0 20px;
+    font-size: 1.6rem;
+}
+
+.container2 {
+    max-width: 1300px;
+    max-height: 700px;
+    border: 2px solid royalblue;
+    margin: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.block-display {
+    display: block;
+    width: 100%;
+}
+
+.input-display {
+    display: block;
+    width: 100%;
+    background: lightcyan;
+    border: none;
+    padding: 0.6rem;
+}
+
+.button-display {
+    width: 40%;
+    height: 3rem;
+    cursor: default;
+    background: purple;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button-display:hover {
+    cursor: pointer;
+}
+
+.spacing {
+    margin: 5px 0px;
+}

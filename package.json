@@ -1,0 +1,36 @@
+{
+  "name": "precily",
+  "version": "1.0.0",
+  "description": "MERN stack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "serve": "webpack-dev-server",
+    "dev": "env-cmd -f ./config/dev.env node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "0.28.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "normalize.css": "7.0.0",
+    "re-resizable": "^6.9.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "style-loader": "0.18.2",
+    "webpack": "3.1.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
