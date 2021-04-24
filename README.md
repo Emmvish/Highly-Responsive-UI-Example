@@ -1,3 +1,12 @@
+A small MERN stack project that features three resizable and size-aware components in its UI. The components can be resized from any of their sides and this will cause other components to shrink or expand depending upon the space occupied by the targeted component in the container.
+
+Uses an Express.js based server to host the React Application, and also has a well defined API in the backend built with the help of Node.js . One can add a name, update a name or view the number of documents currently there inside the MongoDB Collection, through the three React Components. API Execution times can also be enlisted.
+
+Finally, the project is made to be of production quality by using Webpack to build the resource dependency graphs and use source maps. The port numbers for Express Server and MongoDB community server can be specified as environment variables in a configuration file.
+
+
+
+
 PRE-REQUISITES:
 
 Must have NodeJS and NPM installed on the PC.
