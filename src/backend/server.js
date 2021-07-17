@@ -140,10 +140,13 @@ app.get("/count", (req,res)=>{
     })
 })
 
+app.get("/sample", (req, res)=>{
+    res.status(200).send();
+})
 
 // Serve the React User Interface's HTML file if the URL's path does not match any of the above specified paths
 app.get("*", (req,res)=>{
-    res.sendFile(path.join(publicPath, "main.html"));
+    res.status(201).sendFile(path.join(publicPath, "main.html"));
 })
 
 // Exporting the "app" express server whose routes have been configured above, to "app.js" file at root of "src" folder, so that the server can be made active on a certain port specified in the "dev.env" file. 
