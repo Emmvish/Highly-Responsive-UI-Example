@@ -145,7 +145,7 @@ app.get("/sample", (req, res)=>{
 })
 
 // Serve the React User Interface's HTML file if the URL's path does not match any of the above specified paths
-app.get("/main", (req,res)=>{
+app.get("*", (req,res)=>{
     res.status(201).sendFile(path.join(publicPath, "main.html"));
 })
 
