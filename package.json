@@ -8,7 +8,7 @@
     "build": "webpack -p",
     "serve": "webpack-dev-server",
     "dev": "env-cmd -f ./config/dev.env node src/app.js",
-    "start": "node src/app.js"
+    "start": "pm2 start src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,9 +21,9 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "0.28.4",
     "express": "^4.17.1",
-    "jest": "27.0.6",
     "mongodb": "^3.6.4",
     "normalize.css": "7.0.0",
+    "pm2": "*",
     "re-resizable": "^6.9.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
@@ -34,6 +34,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
-    "env-cmd": "^10.1.0"
+    "env-cmd": "^10.1.0",
+    "jest": "27.0.6",
   }
 }
