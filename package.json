@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "mongodb": "^3.6.4",
     "normalize.css": "7.0.0",
+    "pm2": "*",
     "re-resizable": "^6.9.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
