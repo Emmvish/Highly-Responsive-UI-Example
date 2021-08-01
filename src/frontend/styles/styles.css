@@ -24,8 +24,9 @@ body {
 }
 
 .container2 {
-    max-width: 1300px;
-    max-height: 700px;
+    display: flex,
+    justify-content: center,
+    align-items: center,
     border: 2px solid royalblue;
     margin: auto;
 }
